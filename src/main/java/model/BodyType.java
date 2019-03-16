@@ -10,10 +10,9 @@ public enum BodyType {
     Skrzynia,
     Kontener,
     Blaszak,
-    Exportówka,
-    Brygadówka,
-    Chłodnia,
+    Exportowka,
+    Brygadowka,
+    Chlodnia,
     Minivan,
     Van,
-
 }
