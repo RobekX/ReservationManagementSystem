@@ -1,4 +1,4 @@
-package model;
+package model.Car;
 
 public enum Segment {
     A,          // Miejski mały
