@@ -14,5 +14,5 @@ public enum BodyType {
     Brygadówka,
     Minivan,
     Van,
-    
+
 }
