@@ -12,6 +12,7 @@ public enum BodyType {
     Blaszak,
     Exportówka,
     Brygadówka,
+    Chłodnia,
     Minivan,
     Van,
 
