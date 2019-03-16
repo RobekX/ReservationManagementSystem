@@ -39,7 +39,7 @@ public class Car {
 
     private Double setPriceForClient(Segment segment) {
 
-        switch(Segment){
+        switch(segment){
             case A:{
                 return PriceForClient = 50.0;
             }
