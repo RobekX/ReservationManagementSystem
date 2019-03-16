@@ -1,14 +1,18 @@
-package model;
+package model.Car;
 
-public class Car {
-    public String Model;
-    public String Colour;
-    public Float Cost;
-    public String RegistrationNumber;
-    public String VinNumber;
-    public String Brand;
-    public Integer Capacity;
-    public Integer HorsePower;
-    public Enum<FuelType> FuelType;
-    public Enum<BodyType> BodyType;
+import lombok.Data;
+
+@Data
+public abstract class Car {
+    private String Model;
+    private String Colour;
+    private Float Cost;
+    private String RegistrationNumber;
+    private String VinNumber;
+    private String Brand;
+    private Integer Capacity;
+    private Integer HorsePower;
+    private Enum<model.FuelType> FuelType;
+    private Enum<model.BodyType> BodyType;
+    private Boolean IsBlocked;
 }
